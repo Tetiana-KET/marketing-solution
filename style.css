@@ -463,9 +463,12 @@ body {
 }
 
 /*  - - - why-we  - - -  */
-
+.page__why-we {
+  padding-top: 187px;
+}
 .why-we__container {
-  gap: 64px;
+  column-gap: 64px;
+  row-gap: 30px;
   display: flex;
 }
 .why-we__images {
@@ -546,7 +549,7 @@ body {
   .why-we__content {
     padding-top: 70px;
   }
-  .why-we__title {
+  .title {
     font-size: 32px;
     margin-bottom: 35px;
   }
@@ -558,7 +561,7 @@ body {
   .why-we__content {
     padding-top: 40px;
   }
-  .why-we__title {
+  .title {
     font-size: 25px;
     margin-bottom: 25px;
   }
@@ -579,9 +582,8 @@ body {
 }
 @media (max-width: 650px) {
   .why-we__container {
-   flex-direction: column;
-   align-items: center;
-   gap: 30px;
+   flex-direction: column-reverse;
+   padding: 0 40px;
   }
   .image1 {
     flex: 0 1 60%;
@@ -589,12 +591,124 @@ body {
   .image2 {
     flex: 0 1 40%;
   }
-  .why-we__content {
-    text-align: center;
+}
+
+/*  - - - R E S O U R C E S - - -  */
+
+.page__resources {
+  padding-top: 192px;
+}
+.resources__container {
+  display: flex;
+  gap: 32px;
+}
+.resources__content {
+  flex: 1 1 58%; /* 58% 749 item width/1280 block width*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+}
+.content-items__item {
+  padding: 40px;
+  border-radius: 30px;
+  background: rgba(129, 129, 139, 0.10);
+
+}
+.item__value {
+  margin-bottom: 32px;
+}
+.item__text{
+  max-width: none;
+}
+.resources__image {
+  max-height: 588px;
+  max-width: 500px;
+  flex: 0 1 39%;
+  border-radius: 0px 378px 378px 378px;
+  overflow: hidden;
+  align-self: flex-end;
+}
+.resources__image img {
+  max-width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+}
+
+@media (max-width: 991.98px) {
+  .page__resources {
+    padding-top: 92px;
   }
+  .resources__container {
+    flex-direction: column-reverse;
+  }
+  .resources__image {
+    align-self: center;
+  }
+  .resources__content {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .page__resources {
+    padding-top: 72px;
+  }
+}
+@media (max-width: 650px) {
+  .page__resources {
+    padding-top: 60px;
+  }
+  .resources__content {
+    grid-template-columns: auto;
+  }
+}
+
+/*  - - - R E V I E W - - -  */
+
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 650px) {
+
+}
+
+/*  - - - A R T I C L E S - - -  */
+
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 650px) {
+
+}
+
+/*  - - - S T A R T  N O W - - -  */
+
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 650px) {
+
 }
 
 /*  - - - F O O T E R - - -  */
 .footer {
+}
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 650px) {
+
 }
 

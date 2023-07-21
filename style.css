@@ -488,7 +488,7 @@ body {
   overflow: hidden;
 }
 .image1 img{
-  border-radius: 697px 0px 390px 390px;
+  transform: scale(1.05);
 }
 .image1:after {
   display: block;

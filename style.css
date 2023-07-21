@@ -793,15 +793,130 @@ body {
 }
 
 /*  - - - A R T I C L E S - - -  */
+.page__articles {
+  padding: 96px 0;
+}
+.articles {
+}
+.articles__container {
+}
+.articles__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.articles__content {
+
+}
+.articles__link {
+  margin-bottom: 32px;
+}
+.link-to {
+}
+.articles__title {
+  margin-bottom: 12px;
+  max-width: 393px;
+}
+.title {
+}
+.articles__text {
+  margin-bottom: 11px;
+  max-width: 738px;
+}
+.text {
+}
+.articles__button {
+  align-self: flex-end;
+  padding: 16px 43px;
+}
+.button {
+}
+.articles__slider {
+}
+.articles-slider {
+}
+.articles-slider__track {
+  display: flex;
+  gap: 48px;
+}
+.articles-slider__item {
+  overflow: hidden;
+  border-radius: 24px;
+  background: rgba(129, 129, 139, 0.10);
+}
+.article {
+}
+.articles__image {
+}
+.articles__image img {
+  width: 100%;
+}
+.articles__content {
+  padding: 38px 29px 40px 26px;
+}
+.article__date {
+  margin-bottom: 20px;
+}
+.article__title {
+  color: #FFF;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 1.40; /* 26.88/19.2 */
+  margin-bottom: 30px;
+}
+.article__text {
+  max-width: 341px;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+.article__link {
+  color: #3D96F4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6; /* 22.4/14 */
+  transition: all ease .3s;
+}
+.article__link:hover {
+  color: #eaedf1;
+}
 
 @media (max-width: 991.98px) {
-
+  .page__articles {
+    padding: 56px 0;
+  }
+  .articles__header {
+    flex-direction: column;
+  }
+  .articles__content {
+    margin-bottom: 54px;
+  }
 }
 @media (max-width: 767.98px) {
-
+  .page__articles {
+    padding: 36px 0;
+  }
+  .articles__content {
+    margin-bottom: 0;
+  }
+  .articles-slider__track {
+    flex-direction: column;
+  }
+  .article__text, .article__title {
+    max-width: none;
+  }
 }
 @media (max-width: 650px) {
-
+  .page__articles {
+    padding: 26px 0;
+  }
+  .articles__content {
+    padding: 28px 15px;
+  }
+  .articles-slider__track {
+    display: flex;
+    gap: 30px;
+}
 }
 
 /*  - - - S T A R T  N O W - - -  */

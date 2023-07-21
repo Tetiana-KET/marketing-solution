@@ -1000,7 +1000,57 @@ body {
 }
 
 /*  - - - F O O T E R - - -  */
+
 .footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__container {
+}
+.footer__logo-wrap {
+}
+.logo {
+}
+.logo__img {
+}
+.logo__description {
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
+}
+.footer__pages {
+}
+.pages-list {
+}
+.pages-list__title {
+}
+.pages-list__items {
+}
+.pages-list__item {
+}
+.pages-list__item-link {
+}
+.footer__subscribe {
+}
+.subscribe {
+}
+.subscribe__title {
+}
+.subscribe__text {
+}
+.subscribe__buttons {
+}
+.subscribe__email {
+}
+.subscribe__button {
+}
+.button {
+}
+.year {
+  align-self: center;
 }
 @media (max-width: 991.98px) {
 
